@@ -85,7 +85,7 @@
       </div>
       <div class="relative h-12 max-w-[34.375rem] w-full mx-5">
         <input type="text" class="w-full h-full outline-none bg-[#F5F6FA] border-2 border-solid border-[#EFEEF1] rounded-md text-lg px-4" placeholder="Search...">
-        <i class='bx bx-search absolute h-10 w-10 bg-[#008000] right-[5px] top-1/2 transform -translate-y-1/2 rounded-md text-white text-center leading-10 text-[1.375rem] transition-all duration-400 ease-in-out' ></i>
+        <i class='bx bx-search absolute h-10 w-10 bg-[#213634] right-[5px] top-1/2 transform -translate-y-1/2 rounded-md text-white text-center leading-10 text-[1.375rem] transition-all duration-400 ease-in-out' ></i>
       </div>
       <div class="flex items-center bg-[#F5F6FA] border-2 border-solid border-[#EFEEF1] rounded-md h-12 min-w-48 px-2 py-0">
 
@@ -264,7 +264,7 @@
     </div>
   </section>
 
-@endsection()
+@endsection
     
 
   <script>

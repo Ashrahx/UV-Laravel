@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,9 @@ use App\Http\Controllers\HomeController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+// Ruta para enviar el formulario de login
+Route::get('/login', LoginController::class );
 
 Route::get('/', HomeController::class);
 
